@@ -1,4 +1,5 @@
 def call(){
   echo "Hello From Jenkins Shared Library"
-  pwd
+  sh 'pwd'
+  sh 'ls'
 }
